@@ -16,3 +16,14 @@ This document records every step run on the University of Münser PALMA-II HPC c
 3. Classify the remaining reads against the arthropod Kraken2 database ([López Clinton & van der Valk 2025](https://doi.org/10.17044/scilifelab.29666605))
 4. Convert Kraken2 reports to abundance tables (KrakenTools)
 5. Analyse alpha and beta diversity, and taxonomy in R (see [scripts/R/](https://github.com/suelisj-byte/metagen_utricularia/tree/289cba8a9210606f54e3eb7e39dff4c15831c5cd/scripts/R))
+
+### 1. Retrieve raw sequencing data
+The dataset (33 libraries, Illumina NovaSeq X, paired-end 2 × 150 bp) was produced for a previous master's project and provided with adapters already trimmed and demultiplexed.
+```bash
+cp -r /cloud/wwu1/r_agmueller/r_agmueller/Ubremii/RESEQ/ /scratch/tmp/ssuarezj/
+```
+
+### 2. Quality filtering and trimming
+The first 10 bases of both reads were removed to eliminate non-random base composition at the read start. 3' ends were trimmed with a sliding window. Reads shorter than 40 bp were discarded. Per sample HTML and JSON reports were written to reports/.
+
+For the script see [scripts/slurm/fastp.sh](https://github.com/suelisj-byte/metagen_utricularia/blob/68c7fa59f4b03f3b4843e13f5e4679447e9ff757/scripts/slurm/fastp.sh).
