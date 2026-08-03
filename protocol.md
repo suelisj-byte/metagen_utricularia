@@ -16,4 +16,3 @@ This document records every step run on the University of Münser PALMA-II HPC c
 3. Classify the remaining reads against the arthropod Kraken2 database ([López Clinton & van der Valk 2025](https://doi.org/10.17044/scilifelab.29666605))
 4. Convert Kraken2 reports to abundance tables (KrakenTools)
 5. Analyse alpha and beta diversity, and taxonomy in R (see [scripts/R/](https://github.com/suelisj-byte/metagen_utricularia/tree/289cba8a9210606f54e3eb7e39dff4c15831c5cd/scripts/R))
-
