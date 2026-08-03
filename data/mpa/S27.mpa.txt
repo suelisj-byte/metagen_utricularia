@@ -1,0 +1,16 @@
+d__Eukaryota	5
+d__Eukaryota|k__Metazoa	5
+d__Eukaryota|k__Metazoa|p__Arthropoda	5
+d__Eukaryota|k__Metazoa|p__Arthropoda|c__Insecta	5
+d__Eukaryota|k__Metazoa|p__Arthropoda|c__Insecta|o__Lepidoptera	3
+d__Eukaryota|k__Metazoa|p__Arthropoda|c__Insecta|o__Lepidoptera|f__Geometridae	3
+d__Eukaryota|k__Metazoa|p__Arthropoda|c__Insecta|o__Lepidoptera|f__Geometridae|g__Agriopis	3
+d__Eukaryota|k__Metazoa|p__Arthropoda|c__Insecta|o__Lepidoptera|f__Geometridae|g__Agriopis|s__Agriopis_aurantiaria	3
+d__Eukaryota|k__Metazoa|p__Arthropoda|c__Insecta|o__Coleoptera	1
+d__Eukaryota|k__Metazoa|p__Arthropoda|c__Insecta|o__Coleoptera|f__Silphidae	1
+d__Eukaryota|k__Metazoa|p__Arthropoda|c__Insecta|o__Coleoptera|f__Silphidae|g__Phosphuga	1
+d__Eukaryota|k__Metazoa|p__Arthropoda|c__Insecta|o__Coleoptera|f__Silphidae|g__Phosphuga|s__Phosphuga_atrata	1
+d__Eukaryota|k__Metazoa|p__Arthropoda|c__Insecta|o__Hemiptera	1
+d__Eukaryota|k__Metazoa|p__Arthropoda|c__Insecta|o__Hemiptera|f__Pentatomidae	1
+d__Eukaryota|k__Metazoa|p__Arthropoda|c__Insecta|o__Hemiptera|f__Pentatomidae|g__Piezodorus	1
+d__Eukaryota|k__Metazoa|p__Arthropoda|c__Insecta|o__Hemiptera|f__Pentatomidae|g__Piezodorus|s__Piezodorus_guildinii	1
